@@ -15,7 +15,7 @@ Feature: Book functionality
       | name          | karthick            |
       | mobile        | 8525839831          |
       | pincode       | 639002              |
-      | street number | 100/4 nandha        |
+      | street number | 100/4 abc           |
       | area          | Thangavel Nagar     |
       | landmark      | backside kongu mess |
       | city          | karur               |

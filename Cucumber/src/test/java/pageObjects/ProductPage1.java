@@ -13,10 +13,10 @@ public class ProductPage1 extends BasePage {
 	}
 
 	// Elements
-	@FindBy(xpath = "//img[@alt=\"Wild Stone Edge Premium Perfume for Men, 50ml|Long Lasting Eau De Parfum|Luxury Fragrances\"]")
+	@FindBy(xpath = "//img[@alt=\"Wild Stone Edge Perfume for Men, 50ml\" and @data-image-index=\"4\"]")
 	WebElement target_products;
 
-	@FindBy(xpath ="//img[@alt=\"Wild Stone Edge Premium Perfume for Men, 50ml|Long Lasting Eau De Parfum|Luxury Fragrances\"]//following::button[1]")
+	@FindBy(xpath ="//img[@alt=\"Wild Stone Edge Perfume for Men, 50ml\" and @data-image-index=\"4\"]//following::button[1]")
 	WebElement product_cart_btn;
 	
 	@FindBy(xpath = "//span[text()=\"Customers’ Most-loved  Jewellery | 4+ star rated | 240+ ratings\"]")

@@ -25,9 +25,9 @@ public class Hooks {
 	    	driver=BaseClass.initilizeBrowser();
 	    		
 	    	p=BaseClass.getProperties();
-	        //driver.navigate().to("https://www.amazon.in/"); 
+	        driver.navigate().to("https://www.amazon.in/"); 
 	    	//driver.navigate().to("https://magento.softwaretestingboard.com/");
-	    	driver.navigate().to("https://demo.guru99.com/test/newtours/register.php");
+	    	//driver.navigate().to("https://demo.guru99.com/test/newtours/register.php");
 	    	driver.manage().window().maximize();
 	    	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		}
@@ -35,7 +35,7 @@ public class Hooks {
     @After
     public void tearDown() {
         		
-       driver.quit();
+      // driver.quit();
        
     }
     
